@@ -9,7 +9,7 @@
 python3 -m venv .venv
 source .venv/bin/activate   # Windows: .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-python analyze.p
+python analyze.py
 ````
 
 
@@ -24,3 +24,4 @@ python analyze.p
 
 **2. What did you learn about Git commits (small commits, staging, meaningful messages)?**
 - Git commits benefits the group by serving as a form of documentation. As we use Git to work collaboratively, it is important for us to properly enumerate the actions done on the workspace to update one another on the progress made.
+
