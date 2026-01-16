@@ -4,13 +4,12 @@
 **Name:** Tips<br>
 **URL:** https://raw.githubusercontent.com/mwaskom/seaborn-data/master/tips.csv  
 
-## How to run (copy/paste commands)
+## How to run
 ````
-uv init week1-python-git-lab 
-uv add pandas matplotlib 
-.venv/Scripts/activate 
-python analyze.py 
-uv pip freeze > requirements.txt 
+python3 -m venv .venv
+source .venv/bin/activate   # Windows: .\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python analyze.p
 ````
 
 
